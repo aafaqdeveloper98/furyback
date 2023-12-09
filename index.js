@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }))
 //app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json())
 app.use(cors({
-    origin: ["http://localhost:5173", "http://fury.aafaqhassan.com"],
+    origin: ["http://localhost:5173", "https://fury.aafaqhassan.com"],
     credentials: true,
 }))
 
